@@ -1,12 +1,12 @@
-// ProposeToJunior.jsx
+// ProposeToSadia.jsx
 // Single-file React component (default export) you can paste into a Vite/CRA project.
 // Requires: Tailwind CSS and framer-motion installed in your project.
-// Usage: import ProposeToJunior from './ProposeToJunior'; then render <ProposeToJunior /> in your app.
+// Usage: import ProposeToSadia from './ProposeToSadia'; then render <ProposeToSadia /> in your app.
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function ProposeToJunior() {
+export default function ProposeToSadia() {
   const [started, setStarted] = useState(false);
   const [showRing, setShowRing] = useState(false);
   const [accepted, setAccepted] = useState(null); // null | true | false
@@ -18,7 +18,7 @@ export default function ProposeToJunior() {
         {/* Header */}
         <header className="p-8 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            For <span className="text-rose-600">Junior</span>, with all my heart
+            For <span className="text-rose-600">Sadia</span>, with all my heart
           </h1>
           <p className="mt-3 text-sm md:text-base text-gray-700">A little page I made to ask something very important.</p>
         </header>
@@ -60,7 +60,7 @@ export default function ProposeToJunior() {
               Start
             </button>
 
-            <small className="text-xs text-gray-500">Tip: play soft music while she reads (optional)</small>
+            {/* <small className="text-xs text-gray-500">Tip: play soft music while she reads (optional)</small> */}
           </div>
 
           {/* Right: Message Card */}
@@ -85,8 +85,8 @@ export default function ProposeToJunior() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -10 }}
                 >
-                  <h2 className="text-2xl font-bold text-rose-600">Junior,</h2>
-                  <p className="mt-4 text-gray-700">I've been wanting to tell you this for a long time. Your smile brightens my day, your kindness warms my heart, and every small moment with you feels like a beautiful memory.</p>
+                  <h2 className="text-2xl font-bold text-rose-600">Sadia,</h2>
+                  <p className="mt-4 text-gray-700">I've been wanting to tell you this for a long time. Your smile brightens my day, your kindness warms my heart!</p>
 
                   <motion.blockquote
                     className="mt-6 p-4 rounded-lg bg-rose-50 border-l-4 border-rose-200 text-gray-800"
@@ -134,7 +134,7 @@ export default function ProposeToJunior() {
                     className="max-w-lg w-full bg-white rounded-2xl shadow-2xl p-6 border border-gray-100"
                   >
                     <h3 className="text-center text-2xl font-bold text-rose-600">Will you be mine?</h3>
-                    <p className="mt-3 text-center text-gray-700">Junior, I promise to care for you, laugh with you, and make everyday a little more special. Will you marry me?</p>
+                    <p className="mt-3 text-center text-gray-700">Sadia, I promise to care for you, laugh with you, and make everyday a little more special. Will you marry me?</p>
 
                     <div className="mt-6 flex justify-center gap-4">
                       <button
@@ -159,7 +159,7 @@ export default function ProposeToJunior() {
                       </button>
                     </div>
 
-                    <div className="mt-6 text-center text-sm text-gray-400">(You can customize the message and buttons in the code.)</div>
+                    {/* <div className="mt-6 text-center text-sm text-gray-400">(You can customize the message and buttons in the code.)</div> */}
                   </motion.div>
                 </motion.div>
               )}
@@ -175,8 +175,8 @@ export default function ProposeToJunior() {
                     animate={{ opacity: 1, y: 0 }}
                     className="p-4 rounded-lg bg-rose-50 border-l-4 border-rose-200"
                   >
-                    <h4 className="font-bold text-rose-600">She said yes!</h4>
-                    <p className="mt-2 text-gray-700">This moment will be remembered forever. Celebrate with a warm hug and maybe some sweets ❤️.</p>
+                    <h4 className="font-bold text-rose-600">This Song is for you❤️❤️❤️</h4>
+                    <p className="mt-2 text-gray-700">When I saw you in that dress looking so Beautiful, I don't deserve this Darling you look Perfect Tonight!❤️.</p>
                   </motion.div>
                 )}
 
@@ -188,7 +188,7 @@ export default function ProposeToJunior() {
                     className="p-4 rounded-lg bg-gray-50 border-l-4 border-gray-200"
                   >
                     <h4 className="font-bold text-gray-700">It's okay</h4>
-                    <p className="mt-2 text-gray-700">The most important thing is honesty. Thank her and be kind — feelings can change with time.</p>
+                    <p className="mt-2 text-gray-700">The most important thing is honesty. Thank you 🥹 — feelings can change with time.</p>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -197,7 +197,7 @@ export default function ProposeToJunior() {
           </div>
         </main>
 
-        <footer className="p-6 text-center text-sm text-gray-500">Made with ♥ just for Junior. — (Customize fonts, images, and music to make it perfect.)</footer>
+        <footer className="p-6 text-center text-sm text-gray-500">Made with ♥ just for Sadia.</footer>
       </div>
 
       {/* Decorative floating hearts */}
@@ -214,7 +214,7 @@ Instructions (short):
 1) Create a Vite or Create-React-App project.
 2) Install Tailwind CSS (official docs) and add the base styles.
 3) Install framer-motion: npm i framer-motion
-4) Save this file as ProposeToJunior.jsx and import into your app.
+4) Save this file as ProposeToSadia.jsx and import into your app.
 
 Optional polish ideas:
 - Add a custom font (Google Fonts) for more romance.
