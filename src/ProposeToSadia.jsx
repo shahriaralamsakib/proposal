@@ -1,12 +1,12 @@
-// ProposeToSadia.jsx
+// ProposeToJunior.jsx
 // Single-file React component (default export) you can paste into a Vite/CRA project.
 // Requires: Tailwind CSS and framer-motion installed in your project.
-// Usage: import ProposeToSadia from './ProposeToSadia'; then render <ProposeToSadia /> in your app.
+// Usage: import ProposeToJunior from './ProposeToJunior'; then render <ProposeToJunior /> in your app.
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function ProposeToSadia() {
+export default function ProposeToJunior() {
   const [started, setStarted] = useState(false);
   const [showRing, setShowRing] = useState(false);
   const [accepted, setAccepted] = useState(null); // null | true | false
@@ -18,7 +18,7 @@ export default function ProposeToSadia() {
         {/* Header */}
         <header className="p-8 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            For <span className="text-rose-600">Sadia</span>, with all my heart
+            For <span className="text-rose-600">Junior</span>, with all my heart
           </h1>
           <p className="mt-3 text-sm md:text-base text-gray-700">A little page I made to ask something very important.</p>
         </header>
@@ -85,7 +85,7 @@ export default function ProposeToSadia() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -10 }}
                 >
-                  <h2 className="text-2xl font-bold text-rose-600">Sadia,</h2>
+                  <h2 className="text-2xl font-bold text-rose-600">Junior,</h2>
                   <p className="mt-4 text-gray-700">I've been wanting to tell you this for a long time. Your smile brightens my day, your kindness warms my heart, and every small moment with you feels like a beautiful memory.</p>
 
                   <motion.blockquote
@@ -134,7 +134,7 @@ export default function ProposeToSadia() {
                     className="max-w-lg w-full bg-white rounded-2xl shadow-2xl p-6 border border-gray-100"
                   >
                     <h3 className="text-center text-2xl font-bold text-rose-600">Will you be mine?</h3>
-                    <p className="mt-3 text-center text-gray-700">Sadia, I promise to care for you, laugh with you, and make everyday a little more special. Will you marry me?</p>
+                    <p className="mt-3 text-center text-gray-700">Junior, I promise to care for you, laugh with you, and make everyday a little more special. Will you marry me?</p>
 
                     <div className="mt-6 flex justify-center gap-4">
                       <button
@@ -197,7 +197,7 @@ export default function ProposeToSadia() {
           </div>
         </main>
 
-        <footer className="p-6 text-center text-sm text-gray-500">Made with ♥ just for Sadia. — (Customize fonts, images, and music to make it perfect.)</footer>
+        <footer className="p-6 text-center text-sm text-gray-500">Made with ♥ just for Junior. — (Customize fonts, images, and music to make it perfect.)</footer>
       </div>
 
       {/* Decorative floating hearts */}
@@ -214,7 +214,7 @@ Instructions (short):
 1) Create a Vite or Create-React-App project.
 2) Install Tailwind CSS (official docs) and add the base styles.
 3) Install framer-motion: npm i framer-motion
-4) Save this file as ProposeToSadia.jsx and import into your app.
+4) Save this file as ProposeToJunior.jsx and import into your app.
 
 Optional polish ideas:
 - Add a custom font (Google Fonts) for more romance.
